@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string name="mupdflib_app_name">MuPDF</string>
-	<string name="mupdflib_version">1.9a (git build)</string>
+	<string name="mupdflib_version" translatable="false">1.9a (git build)</string>
 	<string name="mupdflib_no_media_warning">Storage media not present</string>
 	<string name="mupdflib_no_media_hint">Sharing the storage media with a PC can make it inaccessible</string>
 	<string name="mupdflib_cancel">Cancel</string>

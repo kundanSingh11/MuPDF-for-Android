@@ -14,16 +14,16 @@ public class MuPDFCore
 		System.out.println("Loading dll");
 		System.loadLibrary("mupdf_java");
 		System.out.println("Loaded dll");
-		if (gprfSupportedInternal())
-		{
-			try {
-				System.loadLibrary("gs");
-				gs_so_available = true;
-			}
-			catch (UnsatisfiedLinkError e) {
-				gs_so_available = false;
-			}
-		}
+//		if (gprfSupportedInternal())
+//		{
+//			try {
+//				System.loadLibrary("gs");
+//				gs_so_available = true;
+//			}
+//			catch (UnsatisfiedLinkError e) {
+//				gs_so_available = false;
+//			}
+//		}
 	}
 
 	/* Readable members */
